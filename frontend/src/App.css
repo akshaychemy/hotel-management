@@ -1,0 +1,64 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styles */
+  /* .App {
+    padding: 2rem;
+  } */
+  
+  /* Admin Panel Styles */
+  .admin-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-nav ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .admin-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .admin-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
