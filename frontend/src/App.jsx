@@ -13,6 +13,8 @@ import LoginForm from './components/LoginForm';
 import AdminRoute from './components/AdminRoute';
 import axios from 'axios';
 
+// testing the flow here
+
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
 
